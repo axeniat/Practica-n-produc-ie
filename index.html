@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FinManage SRL - Gestionarea clienților și încasărilor</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <header class="header">
+
+        <div class="header-content">
+
+            <div class="logo-area">
+
+                <h1>FinManage SRL</h1>
+
+                <p>
+                    Gestionarea clienților și încasărilor
+                </p>
+
+            </div>
+
+
+            <nav class="navigation">
+
+                <a href="#acasa">Acasă</a>
+
+                <a href="#despre">Despre companie</a>
+
+                <a href="#servicii">Servicii</a>
+
+                <a href="#clienti">Clienți</a>
+
+                <a href="#contact">Contact</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <main>
+
+        <section id="acasa" class="hero">
+
+            <div class="container">
+
+                <div class="hero-content">
+
+                    <h2>
+                        Soluții simple pentru
+                        gestionarea clienților
+                    </h2>
+
+                    <p>
+
+                        FinManage SRL oferă soluții pentru
+                        evidența clienților, facturilor,
+                        soldurilor și încasărilor.
+
+                    </p>
+
+                    <a href="#clienti" class="hero-button">
+                        Vezi clienții
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="despre" class="section">
+
+            <div class="container">
+
+                <h2 class="section-title">
+                    Despre companie
+                </h2>
+
+
+                <div class="about-content">
+
+                    <div class="about-text">
+
+                        <h3>
+                            FinManage SRL
+                        </h3>
+
+                        <p>
+
+                            FinManage SRL este o companie
+                            specializată în gestionarea
+                            informațiilor despre clienți,
+                            facturi și încasări.
+
+                        </p>
+
+                        <p>
+
+                            Compania urmărește să ofere
+                            o evidență clară a soldurilor
+                            clienților și a plăților
+                            efectuate.
+
+                        </p>
+
+                        <p>
+
+                            Platforma permite utilizatorului
+                            să urmărească situația financiară
+                            a clienților și să gestioneze
+                            încasările într-un mod simplu.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="company-info">
+
+                        <div class="info-card">
+
+                            <h3>
+                                Domeniu
+                            </h3>
+
+                            <p>
+                                Gestionarea clienților
+                                și a încasărilor
+                            </p>
+
+                        </div>
+
+
+                        <div class="info-card">
+
+                            <h3>
+                                Activitate
+                            </h3>
+
+                            <p>
+                                Evidența facturilor,
+                                soldurilor și plăților
+                            </p>
+
+                        </div>
+
+
+                        <div class="info-card">
+
+                            <h3>
+                                Obiectiv
+                            </h3>
+
+                            <p>
+                                Organizarea eficientă
+                                a informațiilor clienților
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="servicii" class="section gray-section">
+
+            <div class="container">
+
+                <h2 class="section-title">
+                    Serviciile companiei
+                </h2>
+
+
+                <div class="services">
+
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            01
+                        </div>
+
+                        <h3>
+                            Gestionarea clienților
+                        </h3>
+
+                        <p>
+
+                            Evidența clienților și
+                            monitorizarea soldurilor
+                            acestora.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            02
+                        </div>
+
+                        <h3>
+                            Evidența facturilor
+                        </h3>
+
+                        <p>
+
+                            Urmărirea facturilor neachitate
+                            și a sumelor rămase de plată.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            03
+                        </div>
+
+                        <h3>
+                            Gestionarea încasărilor
+                        </h3>
+
+                        <p>
+
+                            Înregistrarea plăților parțiale
+                            sau totale și repartizarea
+                            acestora pe facturi.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="clienti" class="section">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <div>
+
+                        <h2 class="section-title">
+                            Gestionarea clienților
+                        </h2>
+
+                        <p class="section-description">
+
+                            Lista clienților și situația
+                            soldurilor acestora.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="sort-area">
+
+                        <label for="sortSelect">
+                            Sortare:
+                        </label>
+
+                        <select id="sortSelect">
+
+                            <option value="none">
+                                Fără sortare
+                            </option>
+
+                            <option value="asc">
+                                Sold crescător
+                            </option>
+
+                            <option value="desc">
+                                Sold descrescător
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="table-container">
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+
+                                <th>
+                                    Client
+                                </th>
+
+                                <th>
+                                    Sold
+                                </th>
+
+                                <th>
+                                    Zile restanță
+                                </th>
+
+                                <th>
+                                    Situație
+                                </th>
+
+                                <th>
+                                    Acțiune
+                                </th>
+
+                            </tr>
+
+                        </thead>
+
+
+                        <tbody id="clientTable">
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+
+                <div class="legend">
+
+                    <span class="legend-warning">
+                        Restanță mai mare de 60 zile
+                    </span>
+
+                    <span class="legend-normal">
+                        În termen / până la 60 zile
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="section gray-section">
+
+            <div class="container">
+
+                <h2 class="section-title">
+                    Detalii client
+                </h2>
+
+
+                <div id="clientDetails">
+
+                    <p class="empty-message">
+
+                        Selectați un client din tabel
+                        pentru a vedea informațiile.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section">
+
+            <div class="container">
+
+                <h2 class="section-title">
+                    Facturi neachitate
+                </h2>
+
+
+                <p class="section-description">
+
+                    Selectați un client pentru a vedea
+                    facturile care nu au fost achitate
+                    integral.
+
+                </p>
+
+
+                <div class="table-container">
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+
+                                <th>
+                                    Nr. factură
+                                </th>
+
+                                <th>
+                                    Data
+                                </th>
+
+                                <th>
+                                    Valoare
+                                </th>
+
+                                <th>
+                                    Achitat
+                                </th>
+
+                                <th>
+                                    Rest
+                                </th>
+
+                                <th>
+                                    Sumă alocată
+                                </th>
+
+                            </tr>
+
+                        </thead>
+
+
+                        <tbody id="invoiceTable">
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section gray-section">
+
+            <div class="container">
+
+                <h2 class="section-title">
+                    Istoricul plăților
+                </h2>
+
+
+                <div class="table-container">
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+
+                                <th>
+                                    Data
+                                </th>
+
+                                <th>
+                                    Factură
+                                </th>
+
+                                <th>
+                                    Suma
+                                </th>
+
+                            </tr>
+
+                        </thead>
+
+
+                        <tbody id="paymentTable">
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section">
+
+            <div class="container">
+
+                <h2 class="section-title">
+                    Înregistrarea unei încasări
+                </h2>
+
+
+                <div class="payment-box">
+
+                    <p class="payment-description">
+
+                        Introduceți suma totală a plății,
+                        apoi repartizați manual suma
+                        pe una sau mai multe facturi.
+
+                    </p>
+
+
+                    <div class="form-group">
+
+                        <label for="paymentAmount">
+
+                            Suma totală plătită:
+
+                        </label>
+
+
+                        <input type="number" id="paymentAmount" min="0" step="0.01" placeholder="Ex.: 7000">
+
+                    </div>
+
+
+                    <div class="allocation-example">
+
+                        <strong>
+                            Exemplu:
+                        </strong>
+
+                        O plată de 7000 lei poate fi
+                        repartizată astfel:
+
+                        <br>
+
+                        Factura F-001 →
+                        5000 lei
+
+                        <br>
+
+                        Factura F-002 →
+                        2000 lei
+
+                    </div>
+
+
+                    <button type="button" id="paymentButton" class="primary-button">
+
+                        Înregistrează plata
+
+                    </button>
+
+
+                    <p id="paymentMessage"></p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="contact" class="section contact-section">
+
+            <div class="container">
+
+                <h2 class="section-title">
+                    Contact
+                </h2>
+
+
+                <div class="contact-grid">
+
+
+                    <div class="contact-card">
+
+                        <h3>
+                            Telefon
+                        </h3>
+
+                        <p>
+                            +373 60 000 000
+                        </p>
+
+                    </div>
+
+
+                    <div class="contact-card">
+
+                        <h3>
+                            Email
+                        </h3>
+
+                        <p>
+                            contact@finmanage.md
+                        </p>
+
+                    </div>
+
+
+                    <div class="contact-card">
+
+                        <h3>
+                            Adresă
+                        </h3>
+
+                        <p>
+                            Chișinău, Republica Moldova
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+
+        <div class="container">
+
+            <p>
+                © 2026 FinManage SRL.
+                Toate drepturile rezervate.
+            </p>
+
+            <p>
+                Proiect frontend - Gestionarea
+                clienților și încasărilor
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
